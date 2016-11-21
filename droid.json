@@ -1,0 +1,30 @@
+{
+  "name": "ssl-check",
+  "script": "index.js",
+  "actions": [
+    {
+      "function": "sslCheck",
+      "aliases": ["ssl check for :url([^\\s]+)", "ssl check :url([^\\s]+)", "Reminder: ssl check :url([^\\s]+)"],
+      "acls": {
+        "explicitMention": true
+      },
+      "premessage": "_Querying SSL analysis... this might take a few minutes..._"
+    },
+    {
+      "function": "sslAlert",
+      "aliases": ["ssl alert for :url([^\\s]+) notify in :channel([^\\s]+)", "Reminder: ssl alert for :url([^\\s]+) notify in :channel([^\\s]+)"],
+      "acls": {
+        "explicitMention": true
+      },
+      "premessage": "_Querying SSL analysis... this might take a few minutes..._"
+    },
+    {
+      "function": "newSslCheck",
+      "aliases": ["new ssl check for :url([^\\s]+)", "new ssl check :url([^\\s]+)"],
+      "acls": {
+        "explicitMention": true
+      },
+      "premessage": "_Starting new SSL analysis... this might take a few minutes..._"
+    }
+  ]
+}

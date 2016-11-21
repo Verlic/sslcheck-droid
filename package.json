@@ -1,0 +1,25 @@
+{
+  "name": "sslcheck-droid",
+  "version": "1.0.0",
+  "description": "SSL Check gynoid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verlic/sslcheck-droid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Verlic/sslcheck-droid/issues"
+  },
+  "homepage": "https://github.com/Verlic/sslcheck-droid#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "moment": "^2.16.0",
+    "request": "^2.79.0"
+  }
+}
