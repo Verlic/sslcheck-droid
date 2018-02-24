@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Verlic/sslcheck-droid#readme",
   "dependencies": {
-    "bluebird": "^3.4.6",
+    "bluebird": "3.4.6",
     "moment": "^2.16.0",
     "request": "^2.79.0"
   }
